@@ -29,7 +29,7 @@ Here are the comprehensive projects I have engineered:
 
 ### 📥 **Professional Resume & Contact**
 
-* 📄 **[Download My Full CV (PDF)](https://drive.google.com/drive/folders/1IAoAhrqgm4lSGZhApImIc5S6uDFDytrj?usp=drive_link)**
+* 📄 **[Download My Full CV (PDF)](./Raflyandi_Alviansyah_CV.pdf)**
 * 💼 **[Connect on LinkedIn](https://www.linkedin.com/in/raflyandi-alviansyah05)**
 * 📧 **Email:** Raflyalv@gmail.com
 
