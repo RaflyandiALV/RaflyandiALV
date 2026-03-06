@@ -12,12 +12,23 @@ I don't just research algorithms; **I build the engines that run them.**
 >
 > *Status: Live Production | Tech: Next.js 15, React 19, Supabase (PostgreSQL), Cloudflare, Vercel, TailwindCSS*
 
-**High-Performance Headless E-Commerce.** A complete, highly scalable web application engineered completely from scratch for a real-world fashion brand—bypassing generic platforms like Shopify in favor of raw performance and absolute control.
+**High-Performance Headless E-Commerce.** A complete, highly scalable web application engineered completely from scratch for a real-world fashion brand. I bypassed generic monolithic platforms like Shopify to establish raw performance, absolute data ownership, and enterprise-grade security.
 
-* **Complex Backend Infrastructure:** Serverless Edge rendering backed by a massive Supabase PostgreSQL database equipped with heavily audited Row Level Security (RLS) policies and intricate database triggers.
-* **Proprietary Admin CMS & Analytics:** Designed a custom-built, highly secure admin dashboard integrating complex mathematical calculations for real-time revenue analytics, margin tracking, granular inventory control, and order lifecycle management.
-* **Zero-Egress Engineering Prowess:** Engineered a surgical edge-caching layer utilizing Cloudflare proxy and bypassed Next.js Image Optimization to serve high-fidelity uncompressed fashion photography (1MB+) at near-zero egress cost.
-* **Autonomous Integrations:** Implemented continuous asynchronous background workers/webhooks bridging Midtrans (Payment Gateway) and Biteship (Logistics Delivery API) for fully automated shipping and payment verification.
+* **FortKnox Security Architecture:**
+  * **Database Edge:** Secured via rigorous PostgreSQL **Row Level Security (RLS)** isolating public catalog reads from highly-privileged admin mutations. Engineered custom SQL triggers (`on_auth_user_created`) to autonomously serialize user identities and maintain data integrity.
+  * **Network Edge:** Proxied via **Cloudflare** utilizing **Strict SSL/TLS (Full Strict)**, active **Bot Fight Mode** heuristically dropping malicious scrapers natively, and built-in DDoS mitigation.
+  * **Application Edge:** Hardened Next.js headers enforcing strict MIME sniffing protection (`X-Content-Type-Options: nosniff`), Frame denial for Clickjacking prevention (`X-Frame-Options: DENY`), and robust HTTP Strict Transport Security (`Strict-Transport-Security: HSTS preload`).
+
+* **Zero-Egress Engineering Prowess:**
+  * Analyzed massive egress bandwidth drains caused by high-fidelity (1MB+) Lookbook imagery. Strategically re-engineered the asset pipeline by bypassing Vercel's default Next.js Image Optimization (`unoptimized={true}`) and delegating 95% of the payload to Cloudflare's Edge Caching Proxy. This hyper-optimization achieved maximum visual fidelity while reducing database bandwidth costs to near-zero.
+
+* **Autonomous Asynchronous Integrations:**
+  * Engineered robust API endpoints natively listening to **Midtrans Webhooks** for real-time cryptographic transaction verification—automatically mutating database order lifecycles from `pending` to `paid` without human intervention.
+  * Deeply integrated the **Biteship API** to synchronously generate airway bills (AWB) and dispatch couriers the millisecond a transaction clears.
+
+* **Proprietary Admin CMS & Algorithmic Analytics:**
+  * Designed a secure, custom-built internal command center integrating complex mathematical calculations. Features real-time multi-platform revenue analytics (tracking native vs. marketplace sales), dynamic margin tracking, granular inventory control, and automated shipment state management.
+
 * **[Visit Live Site: worldbeforepandemic.com ➔](https://worldbeforepandemic.com)**
 
 #### 2. 🖥️ [QuantWeb: Algorithmic Trading Dashboard](https://github.com/RaflyandiALV/QuantWeb)
