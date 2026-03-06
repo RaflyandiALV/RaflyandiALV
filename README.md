@@ -12,10 +12,12 @@ I don't just research algorithms; **I build the engines that run them.**
 >
 > *Status: Live Production | Tech: Next.js 15, React 19, Supabase (PostgreSQL), Cloudflare, Vercel, TailwindCSS*
 
-**High-Performance Headless E-Commerce.** A complete, scalable web application built from scratch for a real-world fashion brand.
+**High-Performance Headless E-Commerce.** A complete, highly scalable web application engineered completely from scratch for a real-world fashion brand—bypassing generic platforms like Shopify in favor of raw performance and absolute control.
 
-* **Architecture:** Serverless Edge rendering with Next.js App Router, backed by a robust Supabase PostgreSQL database with strict Row Level Security (RLS) policies.
-* **Engineering Prowess:** Engineered a highly optimized edge caching strategy utilizing Cloudflare and Next.js Image Optimization to drastically reduce egress costs while maintaining maximum asset fidelity. Includes autonomous webhook integrations for Midtrans payments and Biteship logistics.
+* **Complex Backend Infrastructure:** Serverless Edge rendering backed by a massive Supabase PostgreSQL database equipped with heavily audited Row Level Security (RLS) policies and intricate database triggers.
+* **Proprietary Admin CMS & Analytics:** Designed a custom-built, highly secure admin dashboard integrating complex mathematical calculations for real-time revenue analytics, margin tracking, granular inventory control, and order lifecycle management.
+* **Zero-Egress Engineering Prowess:** Engineered a surgical edge-caching layer utilizing Cloudflare proxy and bypassed Next.js Image Optimization to serve high-fidelity uncompressed fashion photography (1MB+) at near-zero egress cost.
+* **Autonomous Integrations:** Implemented continuous asynchronous background workers/webhooks bridging Midtrans (Payment Gateway) and Biteship (Logistics Delivery API) for fully automated shipping and payment verification.
 * **[Visit Live Site: worldbeforepandemic.com ➔](https://worldbeforepandemic.com)**
 
 #### 2. 🖥️ [QuantWeb: Algorithmic Trading Dashboard](https://github.com/RaflyandiALV/QuantWeb)
